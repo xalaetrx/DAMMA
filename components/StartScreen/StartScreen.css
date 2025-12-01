@@ -1,0 +1,98 @@
+/* StartScreen.css */
+
+.start-screen-container {
+    position: fixed;
+    inset: 0;
+    overflow-y: auto;
+    font-family: sans-serif;
+}
+
+.start-screen-content {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .start-screen-content {
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+
+.start-screen-header {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.start-screen-title {
+    font-size: 2.25rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    background: linear-gradient(to right, white, rgb(148, 163, 184));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 10px 8px rgba(0, 0, 0, 0.04));
+}
+
+@media (min-width: 768px) {
+    .start-screen-title {
+        font-size: 3rem;
+    }
+}
+
+.start-screen-subtitle {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+    .start-screen-subtitle {
+        font-size: 0.875rem;
+    }
+}
+
+.start-screen-controls {
+    width: 100%;
+    max-width: 28rem;
+}
+
+.start-button {
+    width: 100%;
+    max-width: 28rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: linear-gradient(to right, rgb(79, 70, 229), rgb(139, 92, 246));
+    color: white;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    font-size: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(79, 70, 229, 0.2);
+    transition: all 0.3s;
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .start-button {
+        font-size: 1.125rem;
+    }
+}
+
+.start-button:hover {
+    box-shadow: 0 20px 25px -5px rgba(79, 70, 229, 0.4);
+    transform: scale(1.02);
+}
+
+.start-button:active {
+    transform: scale(0.98);
+}

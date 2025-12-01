@@ -1,0 +1,86 @@
+/* GameInfo.css - Sidebar and game information styles */
+
+.game-info-container {
+    width: 100%;
+    max-width: 20rem;
+}
+
+.game-info-panel {
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.game-info-section {
+    margin-bottom: 1.5rem;
+}
+
+.game-info-section:last-child {
+    margin-bottom: 0;
+}
+
+.game-info-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgb(148, 163, 184);
+    margin-bottom: 0.75rem;
+}
+
+.game-info-button {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
+    transition: all 0.2s;
+    margin-bottom: 0.5rem;
+}
+
+.game-info-button:last-child {
+    margin-bottom: 0;
+}
+
+.game-info-button-primary {
+    background-color: rgb(79, 70, 229);
+    color: white;
+}
+
+.game-info-button-primary:hover {
+    background-color: rgb(99, 102, 241);
+}
+
+.game-info-button-secondary {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+}
+
+.game-info-button-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.game-info-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.game-info-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.game-info-stat-label {
+    font-size: 0.875rem;
+    color: rgb(148, 163, 184);
+}
+
+.game-info-stat-value {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: white;
+}

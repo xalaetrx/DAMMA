@@ -1,0 +1,5 @@
+{
+  "name": "Moroccan Damma Master",
+  "description": "A fully playable, modern web-based implementation of the traditional Damma (Turkish/Moroccan Draughts) game with local multiplayer support.",
+  "requestFramePermissions": []
+}
